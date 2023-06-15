@@ -16,6 +16,11 @@ To get started with the Tailwind Theme Manager, follow the steps below:
 ### Install the module using npm:
 
 ```shell
+npm i tailwind-theme-manager
+```
+It can also be installed from github using
+
+```shell
 npm install https://github.com/ercodr/tailwind-theme-manager.git
 ```
 
