@@ -1,0 +1,25 @@
+{
+  "name": "tailwind-theme-manager",
+  "version": "1.0.0",
+  "description": "The Tailwind Theme Manager is a lightweight JavaScript module that allows you to effortlessly manage the theme of your web application built with the Tailwind CSS framework. It provides functionality to initialize the theme based on user preferences and local storage, as well as toggle between dark and light themes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ercodr/tailwind-theme-manager.git"
+  },
+  "keywords": [
+    "theme",
+    "tailwind",
+    "theme manager",
+    "tailwind theme"
+  ],
+  "author": "Mauly dotDev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ercodr/tailwind-theme-manager/issues"
+  },
+  "homepage": "https://github.com/ercodr/tailwind-theme-manager#readme"
+}
