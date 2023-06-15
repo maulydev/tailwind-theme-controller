@@ -15,8 +15,9 @@ To get started with the Tailwind Theme Manager, follow the steps below:
 
 ### Install the module using npm:
 
+```shell
 npm install https://github.com/ercodr/tailwind-theme-manager.git
-
+```
 
 ### Import the Theme Manager module into your JavaScript file:
 
