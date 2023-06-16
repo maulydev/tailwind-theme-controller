@@ -11,6 +11,12 @@ The Tailwind Theme Manager is a lightweight JavaScript module that allows you to
 
 ## Usage
 
+After setting up your tailwindcss project configuration, add the `class="dark"` to your html tag
+
+```html
+<html lang="en" class="dark">
+```
+
 To get started with the Tailwind Theme Manager, follow the steps below:
 
 ### Install the module using npm:
