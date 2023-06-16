@@ -45,7 +45,7 @@ ThemeManager.initialize();
 The initialize() method automatically sets the theme based on the user's preference stored in local storage. If no preference is found, it checks the system's color scheme and applies the appropriate theme.
 
 ### Add a theme toggle functionality to your application using
-```javascript
+```html
 <button onClick={ThemeManager.toggle}></button>
 ```
 
