@@ -17,6 +17,11 @@ After setting up your tailwindcss project configuration, add the `class="dark"` 
 <html lang="en" class="dark">
 ```
 
+Add to `tailwind.config.js`
+```js
+darkMode: "class",
+```
+
 To get started with the Tailwind Theme Manager, follow the steps below:
 
 ### Install the module using npm:
@@ -24,7 +29,7 @@ To get started with the Tailwind Theme Manager, follow the steps below:
 ```shell
 npm i tailwind-theme-manager
 ```
-It can also be installed from github using
+installing from github
 
 ```shell
 npm install https://github.com/ercodr/tailwind-theme-manager.git
