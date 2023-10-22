@@ -72,6 +72,6 @@ The Tailwind Theme Controller is open-source software licensed under the MIT Lic
 
 Contributions are welcome! If you encounter any issues, have suggestions, or want to contribute to the project, please feel free to submit a pull request.
 
-# Credit
+# Credits
 
 The Tailwind Theme Controller is developed and maintained by `Mauly dotDev`.
