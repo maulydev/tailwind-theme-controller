@@ -1,6 +1,6 @@
-# Tailwind Theme Manager
+# Tailwind Theme Controller
 
-The Tailwind Theme Manager is a lightweight JavaScript module that allows you to effortlessly manage the theme of your web application built with the Tailwind CSS framework. It provides functionality to initialize the theme based on user preferences and local storage, as well as toggle between dark and light themes.
+The Tailwind Theme Controller is a lightweight JavaScript module that allows you to effortlessly manage the theme of your web application built with the Tailwind CSS framework. It provides functionality to initialize the theme based on user preferences and local storage, as well as toggle between dark and light themes.
 
 ## Features
 
@@ -11,24 +11,19 @@ The Tailwind Theme Manager is a lightweight JavaScript module that allows you to
 
 ## Usage
 
-<!-- After setting up your tailwindcss project configuration, add the `class="dark"` to your html tag
 
-```html
-<html lang="en" class="dark">
-``` -->
-
-To get started with the Tailwind Theme Manager, follow the steps below:
+To get started with the Tailwind Theme Controller, follow the steps below:
 
 ### Install the module using npm:
 
 ```shell
-npm i tailwind-theme-manager
+npm i tailwind-theme-controller
 ```
 
 installing from github
 
 ```shell
-npm install https://github.com/ercodr/tailwind-theme-manager.git
+npm install https://github.com/maulydev/tailwind-theme-controller.git
 ```
 
 After setting up your tailwindcss project configuration, add to `tailwind.config.js`
@@ -37,16 +32,16 @@ After setting up your tailwindcss project configuration, add to `tailwind.config
 darkMode: "class",
 ```
 
-### Import the Theme Manager module into your JavaScript file:
+### Import the Theme Controller module into your JavaScript file:
 
 ```javascript
-import ThemeManager from "tailwind-theme-manager";
+import ThemeController from "tailwind-theme-controller";
 ```
 
 ### Initialize the theme based on the user's preferences:
 
 ```javascript
-ThemeManager.initialize();
+ThemeController.initialize();
 ```
 
 The initialize() method automatically sets the theme based on the user's preference stored in local storage. If no preference is found, it checks the system's color scheme and applies the appropriate theme.
@@ -54,24 +49,24 @@ The initialize() method automatically sets the theme based on the user's prefere
 ### Add a theme toggle functionality to your application using
 
 ```html
-<button onClick="{ThemeManager.toggle}"></button>
+<button onClick="{ThemeController.toggle}"></button>
 ```
 
 ## Example code
 
 ```javascript
-import ThemeManager from "tailwind-theme-manager";
+import ThemeController from "tailwind-theme-controller";
 
-ThemeManager.initialize();
+ThemeController.initialize();
 
-const toggler = () => ThemeManager.toggle();
+const toggler = () => ThemeController.toggle();
 
 <button onClick={toggler}></button>;
 ```
 
 # License
 
-The Tailwind Theme Manager is open-source software licensed under the MIT License.
+The Tailwind Theme Controller is open-source software licensed under the MIT License.
 
 # Contributing
 
@@ -79,4 +74,4 @@ Contributions are welcome! If you encounter any issues, have suggestions, or wan
 
 # Credits
 
-The Tailwind Theme Manager is developed and maintained by `Mauly dotDev`.
+The Tailwind Theme Controller is developed and maintained by `Mauly dotDev`.

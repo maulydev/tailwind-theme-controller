@@ -1,7 +1,7 @@
-declare const ThemeManager: {
+declare const ThemeController: {
     initialize(): void;
     toggle(): void;
   };
   
-  export default ThemeManager;
+  export default ThemeController;
   
