@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/maulydev/tailwind-theme-controller/issues"
   },
-  "homepage": "https://github.com/maulydev/tailwind-theme-controller#readme"
+  "homepage": "https://github.com/maulydev/tailwind-theme-controller#readme",
+  "dependencies": {
+    "tailwind-theme-controller": "github:maulydev/tailwind-theme-controller"
+  }
 }
